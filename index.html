@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light barra-navegacion">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AP Seguros</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tipos de seguros
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Auto</a></li>
+                      <li><a class="dropdown-item" href="#">Hogar</a></li>
+                      <li><a class="dropdown-item" href="#">Accidentes personales</a></li>
+                      <li><a class="dropdown-item" href="#">Robo</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carrusel -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrusel1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Cards de servicios -->
+      <section class="seccion-servicios">
+        <div class="card" style="width: 18rem;">
+            <img src="img/auto.png" class="card-img-top" alt="Auto">
+            <div class="card-body">
+              <h5 class="card-title">Seguros para el auto</h5>
+              <p class="card-text card-texto">La máxima protección para tu auto o pick-up. 
+                Múltiples coberturas pensadas para vos, con la solvencia y el respaldo de AP Seguros!</p>
+              <a href="#" class="btn btn-primary card-boton">Ver todos los planes</a>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="img/hogar.png" class="card-img-top" alt="Hogar">
+            <div class="card-body">
+              <h5 class="card-title">Seguros para el hogar</h5>
+              <p class="card-text card-texto">Asegurá tu hogar en La Segunda.
+                Te ofrecemos multicoberturas pensadas para lo que sucede dentro y fuera de tu casa.</p>
+              <a href="#" class="btn btn-primary">Ver todos los planes</a>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="img/accidentes-personales.png" class="card-img-top" alt="Accidentes personales">
+            <div class="card-body">
+              <h5 class="card-title">Seguros contra accidentes personales</h5>
+              <p class="card-text card-texto">Seguros de Accidentes Personales
+                Con nuestros planes Premiun y 24hs. desarrollá tu profesión con la tranquilidad que necesitas.</p>
+              <a href="#" class="btn btn-primary">Ver todos los planes</a>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="img/robo.png" class="card-img-top" alt="Robo">
+            <div class="card-body">
+              <h5 class="card-title">Seguros contra robos</h5>
+              <p class="card-text card-texto">Seguro de Robo Doble Protección
+                Productos diseñados para proteger bienes de uso y valores, tanto en locales como en tránsito.</p>
+              <a href="#" class="btn btn-primary">Ver todos los planes</a>
+            </div>
+          </div>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="parrafo-footer">
+            <p><b>Servicio de Atención al Asegurado: Resolución 225/22</b></p>
+            <p>La entidad aseguradora dispone de un <b>Servicio de Atención al Asegurado</b> que atenderá las consultas y reclamos que presenten los tomadores de seguros, asegurados, beneficiarios y/o derechohabientes.</p>
+          </div>
+    
+          <div class="iconos">
+            <i class='bx bxl-instagram bx-md'></i>
+            <i class='bx bxl-facebook-circle bx-md'></i>
+            <i class='bx bxl-whatsapp bx-md'></i>
+            <i class='bx bxl-twitter bx-md'></i>
+            <i class='bx bxl-linkedin-square bx-md'></i>
+          </div>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
